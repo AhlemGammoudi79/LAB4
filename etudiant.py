@@ -14,7 +14,7 @@ liste_etudiants = []
 def ajouter_etudiant(nom, age, matricule):
     etudiant = Etudiant(nom, age, matricule)
     liste_etudiants.append(etudiant)
-    print(f"{nom} a été ajouté à la liste des étudiants MP2L.")
+    print(f"{nom} a été ajouté à la liste des étudiants MP2L 2 / ahlem.")
 
 # Étape 3 : Fonction pour rechercher un étudiant par nom
 def rechercher_etudiant_par_nom(nom):
