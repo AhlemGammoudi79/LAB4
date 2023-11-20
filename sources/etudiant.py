@@ -34,8 +34,8 @@ ajouter_etudiant("Ahlem", 28, "A123")
 ajouter_etudiant("Asma", 27, "B456")
 ajouter_etudiant("Abir", 26, "C789fffff")
 
-# Étape 6 : Recherche d'un étudiant par nom
-etudiant_recherche = rechercher_etudiant_par_nom("Ahlem gammoudihhhggsee")
+# Étape 6 : Recherche d'un étudiant par nomd
+etudiant_recherche = rechercher_etudiant_par_nom("Ahlem gammoudiddhhhggsee")
 if etudiant_recherche:
     print(f"Étudiant trouvé - Nom: {etudiant_recherche.nom}, Age: {etudiant_recherche.age}, Matricule: {etudiant_recherche.matricule}")
 else:
