@@ -33,7 +33,7 @@ def afficher_liste_etudiants():
 ajouter_etudiant("Ahlem", 28, "A123")
 ajouter_etudiant("Asma", 27, "B456")
 
-ajouter_etudiant("Abir", 26, "C789fffff")
+ajouter_etudiant("Abir", 26, "5478")
 
 # Étape 6 : Recherche d'un étudiant par nomd
 etudiant_recherche = rechercher_etudiant_par_nom("Ahlem gammoudiddhhhggsee")
