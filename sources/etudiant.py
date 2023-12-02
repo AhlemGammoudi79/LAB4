@@ -40,7 +40,7 @@ etudiant_recherche = rechercher_etudiant_par_nom("Ahlem gammoudi")
 if etudiant_recherche:
     print(f"Étudiant trouvé - Nom: {etudiant_recherche.nom}, Age: {etudiant_recherche.age}, Matricule: {etudiant_recherche.matricule}")
 else:
-    print("Aucun étudiant trouvé avec ce nom mp2l ahlem.")
+    print("Aucun étudiant trouvé avec ce nom mp2l.")
 
 # Étape 7 : Affichage de la liste complète des étudiants
 afficher_liste_etudiants()
