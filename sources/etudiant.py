@@ -25,17 +25,18 @@ def rechercher_etudiant_par_nom(nom):
 
 # Étape 4 : Fonction pour afficher la liste complète des étudiants
 def afficher_liste_etudiants():
-    print("Liste des étudiants en MP2L /ahlem :")
+    print("Liste des étudiants en MP2L /ahlem gammoudi :")
     for etudiant in liste_etudiants:
         print(f"Nom: {etudiant.nom}, Age: {etudiant.age}, Matricule: {etudiant.matricule}")
 
 # Étape 5 : Ajout de quelques étudiants à la liste
 ajouter_etudiant("Ahlem", 28, "A123")
 ajouter_etudiant("Asma", 27, "B456")
-ajouter_etudiant("Abir", 26, "C789fffff")
+
+ajouter_etudiant("Abir", 26, "5478")
 
 # Étape 6 : Recherche d'un étudiant par nomd
-etudiant_recherche = rechercher_etudiant_par_nom("Ahlem gammoudiddhhhggsee")
+etudiant_recherche = rechercher_etudiant_par_nom("Ahlem gammoudi")
 if etudiant_recherche:
     print(f"Étudiant trouvé - Nom: {etudiant_recherche.nom}, Age: {etudiant_recherche.age}, Matricule: {etudiant_recherche.matricule}")
 else:
